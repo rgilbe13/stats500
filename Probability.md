@@ -153,7 +153,9 @@ $$P(A_{i}|B)=\dfrac{P(B | A_{i})P(A_{i})}{\sum_{i} P(B | A_{i})P(A_{i})}=\dfrac{
 
 ### Helpful formulas
 $$P(A)=P(A \cap B) + P(A \cap B\complement)$$
+
 $$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+
 $$P(A \cap B) = P(B)P(A|B)$$
 
 Testing cut off...
