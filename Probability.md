@@ -125,11 +125,14 @@ $$P(B|A) = \frac{P(B \cap A)}{P(A)}$$
 The probability of dependent events A and B derived from the formulas for conditional probability:
 
 $$P(A \cap B) = P(B)P(A|B)$$
+
 $$P(B \cap A) = P(A)P(B|A)$$
 
 Note:
 $$P(A|B) \ne P(B|A)$$
+
 $$P(A|B) = 1 - P(A\complement|B)$$
+
 $$P(A)=P(A \cap B) + P(A \cap B\complement)=P(A|B)P(B) + P(A|B\complement)P(B\complement)$$
 
 
@@ -137,12 +140,14 @@ $$P(A)=P(A \cap B) + P(A \cap B\complement)=P(A|B)P(B) + P(A|B\complement)P(B\co
 We can see that in some situations, the conditional and marginal probabilities are different and for some situations, the two probabilities may be equal. When they are equal, the events are independent events, when they are not equal, they are not independent events.
 
 Unless one is explicitly told that events are independent, one cannot simply assume that they are. We can check for independence of two events by showing that any ONE of the following is true. For any given probabilities for events A and B, the events are independent if:
-### Not a formual (Conditional Checks)
+### Not a formula (Conditional Checks)
 $$P(A \cap B) = P(A) \times P(B)$$
+
 $$P(A|B)=P(A)$$
+
 $$P(B|A)=P(B)$$
 
-## Bayes' Theorem
+## Bayes Theorem
 The use of Bayes' theorem to find "reverse" conditional probabilities.
 
 $$P(A_{i}|B)=\dfrac{P(B | A_{i})P(A_{i})}{\sum_{i} P(B | A_{i})P(A_{i})}=\dfrac{P(B | A_{i})P(A_{i})}{P(B| A_{1})P(A_{1})+P(B |A_{2})P(A_{2})+...+P(B| A_{k})P(A_{k})}$$
