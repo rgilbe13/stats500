@@ -59,7 +59,7 @@ It will be Normal (or approximately Normal) if either of these conditions is sat
 
 If both are present then the sampling distribution of the sample proportion is...
 - approximately normal
-- with mean, $\mu = p$ ()
+- with mean, $\mu = p$
 - standard deviation (standard error)
 $$\sigma=\sqrt{\frac{p(1-p)}{n}}$$
 

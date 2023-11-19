@@ -1,5 +1,13 @@
 # Probability Distribution
-
+|Term|Definition|
+|---|---|
+|Random Variable|A random variable is a variable that takes on different values determined by chance. In other words, it is a numerical quantity that varies at random.|
+|Discrete Random variable|When the random variable can assume only a countable, sometimes infinite, number of values.|
+|Continuous Random Variable|When the random variable can assume an uncountable number of values in a line interval.|
+|Probability Function|A probability function is a mathematical function that provides probabilities for the possible outcomes of the random variable, . It is typically denoted as f(x).|
+Probability Mass Function (PMF)|If the random variable is a discrete random variable, the probability function is usually called the probability mass function (PMF)|
+|Probability Density Function|If the random variable is a continuous random variable, the probability function is usually called the probability density function (PDF).|
+|Cumulative Distribution Function|usually denoted F(x) , is a function that gives the probability that the random variable, X, is less than or equal to the value x.|
 ## Expected Value of a Discrete Random Variable
 The expected value (or mean) of a discrete random variable.
 For a discrete random variable, the expected value, usually denoted as $\mu$ or E(X), is calculated using
@@ -39,4 +47,4 @@ The Z-value (or sometimes referred to as Z-score or simply Z) represents the num
 $$Z = \frac{x - \mu}{SD}$$
 Where x is the observed value, u is the mean over the standard deviation.
  ## Z-score and Percentile
- The values inside the table represent probability which is alos the percentile. Say you want to to find the 10th percentile. Look for .1000 in the table. Work backwards to find the z-score and use the above calculation to find the x value.
+ The values inside the table represent probability which is also the percentile. Say you want to to find the 10th percentile. Look for .1000 in the table. Work backwards to find the z-score and use the above calculation to find the x value.

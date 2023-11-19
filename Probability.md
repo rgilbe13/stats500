@@ -110,7 +110,7 @@ $P(A \cap B) = 0$
 
 **Probability of the union of two events**
 
-$P(A \cup B) - P(A) + P(B) - P(A \cap B)$
+$P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 
 If A and B are mutually exclusive, then $P(A \cup B) = P(A) + P(B)$.
 
@@ -154,7 +154,7 @@ $$P(A_{i}|B)=\dfrac{P(B | A_{i})P(A_{i})}{\sum_{i} P(B | A_{i})P(A_{i})}=\dfrac{
 
 Apply to only 2 events...
 
-$$P(A_{i}|B)=\dfrac{P(B | A_{i})P(A_{i})}{\sum_{i} P(B | A_{i})P(A_{i})}=\dfrac{P(B | A_{i})P(A_{i})}{P(B| A_{1})P(A_{1})+P(B |A_{2})P(A_{2})+...+P(B| A_{k})P(A_{k})}$$
+$$P(A|B)=\dfrac{P(B | A)P(A)}{ P(B | A)P(A)+P(B| A')P(A')}$$
 
 ### Helpful formulas
 $$P(A)=P(A \cap B) + P(A \cap B\complement)$$
@@ -162,5 +162,3 @@ $$P(A)=P(A \cap B) + P(A \cap B\complement)$$
 $$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
 
 $$P(A \cap B) = P(B)P(A|B)$$
-
-Testing cut off...
